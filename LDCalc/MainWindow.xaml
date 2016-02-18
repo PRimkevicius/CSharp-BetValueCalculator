@@ -1,0 +1,62 @@
+﻿<Window x:Class="BetCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:p="clr-namespace:BetCalc.Properties"
+        Title="BetCalc v2.0" Height="350" Width="250" ShowInTaskbar="False" ResizeMode="CanMinimize" StateChanged="Window_StateChanged" Closing="Window_Closing">
+
+    <StackPanel Background="#FFE5E5E5">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="LAY" HorizontalAlignment="Left" Height="20" Margin="0,5,0,0" VerticalAlignment="Top" Width="50" Click="ButtonLay_Click"/>
+            <Button  Content="DUTCH" HorizontalAlignment="Left" Height="20" Margin="5,5,0,0" VerticalAlignment="Top" Width="50" Click="ButtonDutch_Click"/>
+            <Button Name="test" Content="3WAY" HorizontalAlignment="Left" Height="20" Margin="5,5,0,0" VerticalAlignment="Top" Width="50" Click="Button3Way_Click"/>
+            <Button Content="Free Bet" HorizontalAlignment="Left" Height="20" Margin="5,5,0,0" VerticalAlignment="Top" Width="50" Click="ButtonFreeBet_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Margin="0,10">
+            <GroupBox Header="Default Stake" VerticalAlignment="Center" Width="200">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                    <TextBox HorizontalContentAlignment="Center" Margin="0,2,0,0" FontSize="14" Height="23" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="{Binding DefaultStake, Mode=TwoWay, Source={x:Static p:Settings.Default}}" VerticalAlignment="Top" />
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <GroupBox Header="Commisions (%)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Margin="0,0,0,5">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                        <TextBox HorizontalContentAlignment="Center" Margin="0,2,0,0" FontSize="14" Height="23" VerticalContentAlignment="Center" Width="50" Text="{Binding CommBook, Mode=TwoWay, Source={x:Static p:Settings.Default}}"/>
+                        <Label Content="MatchBook" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                        <TextBox HorizontalContentAlignment="Center" Margin="0,2,0,0" FontSize="14" Height="23" VerticalContentAlignment="Center" Width="50" Text="{Binding CommBf, Mode=TwoWay, Source={x:Static p:Settings.Default}}"/>
+                        <Label Content="BetFair" />
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel>
+            <CheckBox Margin="10,0" IsChecked="{Binding Minimized, Mode=TwoWay, Source={x:Static p:Settings.Default}}"   Content="Start in Tray"/>
+        </StackPanel>
+
+        <StackPanel Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Transparency:"/>
+                <Label Content="{Binding ElementName=TrSlider, Path=Value}"/>
+            </StackPanel>
+            <Slider Name="TrSlider" Value="{Binding Transparency, Mode=Default, Source={x:Static p:Settings.Default}}" Margin="10,0,10,0" Maximum="100" Minimum="1" TickFrequency="1" IsSnapToTickEnabled="True" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button  Margin="10,0,0,0" Height="15" Tag="1" Click="Button_ClickColor"  VerticalAlignment="Center" Width="10" IsTabStop="False"  Padding="0">
+                <Path Fill="Black" Data="M 0 2 L 2 6 L 4 2 Z"/>
+            </Button>
+            <Rectangle Margin="5,5,0,5" Name="Color1" Height="15" Width="20" StrokeThickness="1" Stroke="Gray"/>
+            <Label Content="Lay/Dutch Window Color" VerticalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button  Margin="10,0,0,0" Height="15" Tag="2" Click="Button_ClickColor"  VerticalAlignment="Center" Width="10" IsTabStop="False"  Padding="0">
+                <Path Fill="Black" Data="M 0 2 L 2 6 L 4 2 Z"/>
+            </Button>
+            <Rectangle Margin="5,5,0,5" Name="Color2" Height="15" Width="20" StrokeThickness="1" Stroke="Gray"/>
+
+            <Label VerticalAlignment="Center" Content="FreeBet Window Color "/>
+        </StackPanel>
+    </StackPanel>
+</Window>

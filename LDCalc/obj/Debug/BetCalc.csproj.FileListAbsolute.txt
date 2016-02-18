@@ -1,0 +1,16 @@
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\BetCalc\LDCalc\bin\Debug\LDCalc.exe.config
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\bin\Debug\LDCalc.exe.config
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\bin\Debug\LDCalc.exe
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\bin\Debug\LDCalc.pdb
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\bin\Debug\CalculatorLib.pdb
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\BetCalc.csprojResolveAssemblyReference.cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\MainWindow.g.cs
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\App.g.cs
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\LDCalc_MarkupCompile.cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\LDCalc_MarkupCompile.lref
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\MainWindow.baml
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\LDCalc.g.resources
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\BetCalc.Properties.Resources.resources
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\BetCalc.csproj.GenerateResource.Cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\LDCalc.exe
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\LDCalc\obj\Debug\LDCalc.pdb

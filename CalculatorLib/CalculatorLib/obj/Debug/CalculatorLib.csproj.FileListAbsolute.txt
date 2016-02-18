@@ -1,0 +1,16 @@
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\bin\Debug\CalculatorLib.dll.config
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\bin\Debug\CalculatorLib.dll
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\bin\Debug\CalculatorLib.pdb
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.csprojResolveAssemblyReference.cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\3Way.baml
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\FreeBet.baml
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\LD.baml
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\3Way.g.cs
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\FreeBet.g.cs
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\LD.g.cs
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib_MarkupCompile.cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.g.resources
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.Properties.Resources.resources
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.csproj.GenerateResource.Cache
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.dll
+C:\Users\Work\Documents\GitHub\CSharp-BetValueCalculator\CalculatorLib\CalculatorLib\obj\Debug\CalculatorLib.pdb
